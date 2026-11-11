@@ -1,0 +1,23 @@
+# Secrets & Environment
+.env
+.env.local
+*.key
+*.pem
+
+# Python & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Chroma Vector DB Persistence (Generated)
+chroma_db/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# OS specific
+.DS_Store
+Thumbs.db

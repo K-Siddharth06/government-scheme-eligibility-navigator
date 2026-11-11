@@ -1,0 +1,415 @@
+{
+  "precision_at_4": "12/12",
+  "score": 1.0,
+  "cases": [
+    {
+      "id": 1,
+      "query": "What schemes can I get?",
+      "expected_schemes": [
+        "PM-KISAN",
+        "Karnataka Raitha Vidya Nidhi"
+      ],
+      "expected_intent": "scheme_discovery",
+      "retrieved_schemes": [
+        {
+          "scheme": "Karnataka Raitha Vidya Nidhi",
+          "short_name": "Raitha Vidya Nidhi",
+          "distance": 0.7396
+        },
+        {
+          "scheme": "Karnataka Raitha Vidya Nidhi",
+          "short_name": "Raitha Vidya Nidhi",
+          "distance": 0.7396
+        },
+        {
+          "scheme": "Karnataka Raitha Vidya Nidhi",
+          "short_name": "Raitha Vidya Nidhi",
+          "distance": 0.7396
+        },
+        {
+          "scheme": "Karnataka Raitha Vidya Nidhi",
+          "short_name": "Raitha Vidya Nidhi",
+          "distance": 0.7795
+        }
+      ],
+      "matched_schemes": [
+        "Karnataka Raitha Vidya Nidhi"
+      ],
+      "hit": true
+    },
+    {
+      "id": 2,
+      "query": "Am I eligible for PM-KISAN?",
+      "expected_schemes": [
+        "PM-KISAN"
+      ],
+      "expected_intent": "eligibility_check",
+      "retrieved_schemes": [
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.6193
+        },
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.6193
+        },
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.6193
+        },
+        {
+          "scheme": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+          "short_name": "PMAY-G",
+          "distance": 0.7465
+        }
+      ],
+      "matched_schemes": [
+        "PM-KISAN"
+      ],
+      "hit": true
+    },
+    {
+      "id": 3,
+      "query": "What schemes are available for street vendors?",
+      "expected_schemes": [
+        "PM SVANidhi"
+      ],
+      "expected_intent": "scheme_discovery",
+      "retrieved_schemes": [
+        {
+          "scheme": "PM SVANidhi (PM Street Vendor's AtmaNirbhar Nidhi)",
+          "short_name": "PM SVANidhi",
+          "distance": 1.0845
+        },
+        {
+          "scheme": "PM SVANidhi (PM Street Vendor's AtmaNirbhar Nidhi)",
+          "short_name": "PM SVANidhi",
+          "distance": 1.0845
+        },
+        {
+          "scheme": "PM SVANidhi (PM Street Vendor's AtmaNirbhar Nidhi)",
+          "short_name": "PM SVANidhi",
+          "distance": 1.0845
+        },
+        {
+          "scheme": "PM SVANidhi (PM Street Vendor's AtmaNirbhar Nidhi)",
+          "short_name": "PM SVANidhi",
+          "distance": 1.1129
+        }
+      ],
+      "matched_schemes": [
+        "PM SVANidhi"
+      ],
+      "hit": true
+    },
+    {
+      "id": 4,
+      "query": "How do I apply for PM Jan Dhan Yojana?",
+      "expected_schemes": [
+        "PM Jan Dhan Yojana"
+      ],
+      "expected_intent": "application_guidance",
+      "retrieved_schemes": [
+        {
+          "scheme": "Pradhan Mantri Jan-Dhan Yojana (PMJDY)",
+          "short_name": "PM Jan Dhan",
+          "distance": 0.7729
+        },
+        {
+          "scheme": "Mukhyamantri Ladli Behna Yojana (MP)",
+          "short_name": "Ladli Behna",
+          "distance": 0.7928
+        },
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.8317
+        },
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.8317
+        }
+      ],
+      "matched_schemes": [
+        "PM Jan Dhan Yojana"
+      ],
+      "hit": true
+    },
+    {
+      "id": 5,
+      "query": "Am I eligible for PM Fasal Bima Yojana?",
+      "expected_schemes": [
+        "PM Fasal Bima Yojana"
+      ],
+      "expected_intent": "eligibility_check",
+      "retrieved_schemes": [
+        {
+          "scheme": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+          "short_name": "PM Fasal Bima",
+          "distance": 0.6995
+        },
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.7699
+        },
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.7699
+        },
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.7699
+        }
+      ],
+      "matched_schemes": [
+        "PM Fasal Bima Yojana"
+      ],
+      "hit": true
+    },
+    {
+      "id": 6,
+      "query": "Can I get a Mudra loan?",
+      "expected_schemes": [
+        "PM Mudra Yojana"
+      ],
+      "expected_intent": "eligibility_check",
+      "retrieved_schemes": [
+        {
+          "scheme": "Pradhan Mantri MUDRA Yojana (PMMY)",
+          "short_name": "PM Mudra",
+          "distance": 0.7113
+        },
+        {
+          "scheme": "Pradhan Mantri MUDRA Yojana (PMMY)",
+          "short_name": "PM Mudra",
+          "distance": 0.8609
+        },
+        {
+          "scheme": "Pradhan Mantri MUDRA Yojana (PMMY)",
+          "short_name": "PM Mudra",
+          "distance": 0.8852
+        },
+        {
+          "scheme": "PM SVANidhi (PM Street Vendor's AtmaNirbhar Nidhi)",
+          "short_name": "PM SVANidhi",
+          "distance": 1.0437
+        }
+      ],
+      "matched_schemes": [
+        "PM Mudra Yojana"
+      ],
+      "hit": true
+    },
+    {
+      "id": 7,
+      "query": "What health insurance schemes can I avail?",
+      "expected_schemes": [
+        "Ayushman Bharat PM-JAY"
+      ],
+      "expected_intent": "scheme_discovery",
+      "retrieved_schemes": [
+        {
+          "scheme": "Ayushman Bharat PM-JAY (Pradhan Mantri Jan Arogya Yojana)",
+          "short_name": "Ayushman Bharat",
+          "distance": 0.9008
+        },
+        {
+          "scheme": "Ayushman Bharat PM-JAY (Pradhan Mantri Jan Arogya Yojana)",
+          "short_name": "Ayushman Bharat",
+          "distance": 0.9008
+        },
+        {
+          "scheme": "Ayushman Bharat PM-JAY (Pradhan Mantri Jan Arogya Yojana)",
+          "short_name": "Ayushman Bharat",
+          "distance": 0.9008
+        },
+        {
+          "scheme": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+          "short_name": "PMAY-G",
+          "distance": 1.054
+        }
+      ],
+      "matched_schemes": [
+        "Ayushman Bharat PM-JAY"
+      ],
+      "hit": true
+    },
+    {
+      "id": 8,
+      "query": "What scholarship or education schemes can a student get in Karnataka?",
+      "expected_schemes": [
+        "Raitha Vidya Nidhi"
+      ],
+      "expected_intent": "scheme_discovery",
+      "retrieved_schemes": [
+        {
+          "scheme": "Karnataka Raitha Vidya Nidhi",
+          "short_name": "Raitha Vidya Nidhi",
+          "distance": 0.5642
+        },
+        {
+          "scheme": "Karnataka Raitha Vidya Nidhi",
+          "short_name": "Raitha Vidya Nidhi",
+          "distance": 0.5642
+        },
+        {
+          "scheme": "Karnataka Raitha Vidya Nidhi",
+          "short_name": "Raitha Vidya Nidhi",
+          "distance": 0.5642
+        },
+        {
+          "scheme": "Karnataka Raitha Vidya Nidhi",
+          "short_name": "Raitha Vidya Nidhi",
+          "distance": 0.6945
+        }
+      ],
+      "matched_schemes": [
+        "Raitha Vidya Nidhi"
+      ],
+      "hit": true
+    },
+    {
+      "id": 9,
+      "query": "Am I eligible for Ladli Behna scheme?",
+      "expected_schemes": [
+        "Ladli Behna Yojana"
+      ],
+      "expected_intent": "eligibility_check",
+      "retrieved_schemes": [
+        {
+          "scheme": "Mukhyamantri Ladli Behna Yojana (MP)",
+          "short_name": "Ladli Behna",
+          "distance": 0.5988
+        },
+        {
+          "scheme": "Mukhyamantri Ladli Behna Yojana (MP)",
+          "short_name": "Ladli Behna",
+          "distance": 0.7114
+        },
+        {
+          "scheme": "Mukhyamantri Ladli Behna Yojana (MP)",
+          "short_name": "Ladli Behna",
+          "distance": 0.7939
+        },
+        {
+          "scheme": "Prime Minister's Employment Generation Programme (PMEGP)",
+          "short_name": "PMEGP",
+          "distance": 0.9209
+        }
+      ],
+      "matched_schemes": [
+        "Ladli Behna Yojana"
+      ],
+      "hit": true
+    },
+    {
+      "id": 10,
+      "query": "What savings schemes are available for senior citizens?",
+      "expected_schemes": [
+        "Senior Citizen Savings Scheme"
+      ],
+      "expected_intent": "scheme_discovery",
+      "retrieved_schemes": [
+        {
+          "scheme": "Senior Citizen Savings Scheme (SCSS)",
+          "short_name": "Senior Citizen Savings",
+          "distance": 0.6042
+        },
+        {
+          "scheme": "Senior Citizen Savings Scheme (SCSS)",
+          "short_name": "Senior Citizen Savings",
+          "distance": 0.8599
+        },
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.8989
+        },
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.8989
+        }
+      ],
+      "matched_schemes": [
+        "Senior Citizen Savings Scheme"
+      ],
+      "hit": true
+    },
+    {
+      "id": 11,
+      "query": "How do I register for e-Shram card?",
+      "expected_schemes": [
+        "e-Shram Card"
+      ],
+      "expected_intent": "application_guidance",
+      "retrieved_schemes": [
+        {
+          "scheme": "e-Shram Portal (National Database of Unorganised Workers)",
+          "short_name": "e-Shram",
+          "distance": 0.917
+        },
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.9624
+        },
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.9624
+        },
+        {
+          "scheme": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+          "short_name": "PM-KISAN",
+          "distance": 0.9624
+        }
+      ],
+      "matched_schemes": [
+        "e-Shram Card"
+      ],
+      "hit": true
+    },
+    {
+      "id": 12,
+      "query": "How can I get subsidised ration under food security scheme?",
+      "expected_schemes": [
+        "NFSA Ration Card"
+      ],
+      "expected_intent": "scheme_discovery",
+      "retrieved_schemes": [
+        {
+          "scheme": "National Food Security Act (NFSA) - Ration Card",
+          "short_name": "NFSA Ration Card",
+          "distance": 0.7801
+        },
+        {
+          "scheme": "National Food Security Act (NFSA) - Ration Card",
+          "short_name": "NFSA Ration Card",
+          "distance": 0.7832
+        },
+        {
+          "scheme": "National Food Security Act (NFSA) - Ration Card",
+          "short_name": "NFSA Ration Card",
+          "distance": 0.7983
+        },
+        {
+          "scheme": "Karnataka Raitha Vidya Nidhi",
+          "short_name": "Raitha Vidya Nidhi",
+          "distance": 0.8581
+        }
+      ],
+      "matched_schemes": [
+        "NFSA Ration Card"
+      ],
+      "hit": true
+    }
+  ]
+}

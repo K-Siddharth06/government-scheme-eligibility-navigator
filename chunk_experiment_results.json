@@ -1,0 +1,38 @@
+[
+  {
+    "config": "Small (400 chars)",
+    "chunk_size": 400,
+    "chunk_overlap": 50,
+    "total_chunks": 123,
+    "avg_chars": 331.8,
+    "min_chars": 38,
+    "max_chars": 399,
+    "intact_clauses_count": 11,
+    "clause_coherence_pct": 8.9,
+    "viva_verdict": "Too small: Breaks multi-clause rules (e.g. separates exclusions from criteria)"
+  },
+  {
+    "config": "Optimal (800 chars)",
+    "chunk_size": 800,
+    "chunk_overlap": 100,
+    "total_chunks": 63,
+    "avg_chars": 655.8,
+    "min_chars": 38,
+    "max_chars": 799,
+    "intact_clauses_count": 17,
+    "clause_coherence_pct": 27.0,
+    "viva_verdict": "Optimal: Keeps complete eligibility criteria + benefits intact in one embedding"
+  },
+  {
+    "config": "Large (1200 chars)",
+    "chunk_size": 1200,
+    "chunk_overlap": 150,
+    "total_chunks": 47,
+    "avg_chars": 909.1,
+    "min_chars": 38,
+    "max_chars": 1198,
+    "intact_clauses_count": 18,
+    "clause_coherence_pct": 38.3,
+    "viva_verdict": "Too large: Dilutes semantic relevance; embeds multiple unrelated sections"
+  }
+]
